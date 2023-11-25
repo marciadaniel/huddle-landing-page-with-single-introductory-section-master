@@ -64,6 +64,13 @@
   border-style: none;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  transition: 1s;
+  color: white;
 }
 
 .social-icons {
@@ -71,6 +78,12 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+.fa-brands:hover {
+  transition: 1s;
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
 }
 
 @media (min-width: 760px) {

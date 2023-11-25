@@ -92,6 +92,13 @@ $myColor3: white;
       radius: 20px;
    }
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   cursor: pointer;
+ }
+
+ .register-btn:hover {
+  background-color: $myColor2; 
+  transition: 1s;
+  color:  $myColor3;
  }
 
  .social-icons {
@@ -99,8 +106,14 @@ $myColor3: white;
    display: flex;
    justify-content: center;
    gap: 10px;
-   
+  
  }
+
+ .fa-brands:hover {
+   transition: 1s;
+   color:  $myColor2;
+   cursor: pointer;
+  }
 
 
 
