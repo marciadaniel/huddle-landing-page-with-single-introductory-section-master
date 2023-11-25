@@ -123,6 +123,7 @@ $myColor3: white;
           image: url('images/bg-mobile.svg');
           color: $myColor1;
           repeat: no-repeat;
+          size: cover;
       }
       width: 100%;
       height: auto;
@@ -131,6 +132,7 @@ $myColor3: white;
       grid-template-columns: 50% 50%;
       grid-template-areas: "parte-1 parte-2";
       padding-bottom: 30px;
+      
   }
   
   .images-container {
